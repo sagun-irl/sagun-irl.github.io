@@ -1,8 +1,3 @@
----
-name: true
-title: false
----
-
 <script>{% include_relative script.js %}</script>
 
 # Home Page
