@@ -1,9 +1,7 @@
 ---
-# title: Home Page
+title: Home Page
+name: Suggon
 ---
-{% if site.title %}
-{{ site.title }}
-{% endif %}
 # Home Page
 Hi, this seems to be my home page for now 🙂
 
