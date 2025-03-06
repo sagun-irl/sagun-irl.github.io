@@ -1,4 +1,4 @@
-# Home Pages
+# Home Page
 Hi, this seems to be my home page for now 🙂
 
 I'm a long-time player of [Guardian Tales](https://guardian-tales.fandom.com/wiki/) so most of my current works are based around it, but I intend to soon add stuff outside that topic too
