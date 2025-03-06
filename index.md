@@ -1,11 +1,6 @@
----
-title: SuggonM
----
-<script>
+{{ site.title }}
 
-{% include_relative script.js %}
-
-</script>
+{{ page.title }}
 
 # Home Page
 Hi, this seems to be my home page for now 🙂
