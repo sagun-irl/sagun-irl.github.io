@@ -9,14 +9,13 @@ Current github pages sitemap:
     <!-- script output -->
 </ul>
 
-{% liquid
-for repo in site.github.public_repositories
-	if repo.homepage contains site.github.url
+{% for repo in site.github.public_repositories %}
+	{% if repo.homepage contains site.github.url
 	and repo.homepage != {{ site.github.url | append: "/" }}
+	%}
 * [./{{ repo.name }}](./{{ repo.name }})
-	endif
-endfor
-%}
+	{% endif %}
+{% endfor %}
 
 <small>
 
