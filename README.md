@@ -1,5 +1,5 @@
 ---
-title: false
+abc: def
 ---
 
 <script>{% include_relative script.js %}</script>
