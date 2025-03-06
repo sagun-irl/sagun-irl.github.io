@@ -1,4 +1,4 @@
-{% if "abc def" contains "c " %}
+{% if "abc def" contains "cd" %}
 abcdef
 {% endif %}
 
