@@ -11,7 +11,7 @@ Current github pages sitemap:
 
 {% for repo in site.github.public_repositories %}
 	{% if repo.homepage contains site.github.url
-	and repo.homepage != {{ site.github.url | append: "/" }}
+	and repo.homepage != site.github.url | append: "/"
 	%}
 * [./{{ repo.name }}](./{{ repo.name }})
 	{% endif %}
