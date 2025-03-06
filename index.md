@@ -1,6 +1,5 @@
 ---
 title: Home Page
-name: Suggon
 ---
 # Home Page
 Hi, this seems to be my home page for now 🙂
