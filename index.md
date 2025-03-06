@@ -1,4 +1,6 @@
-<script>{% include_relative script.js %}</script>
+<script>
+{% include_relative script.js %}
+</script>
 
 # Home Page
 Hi, this seems to be my home page for now 🙂
