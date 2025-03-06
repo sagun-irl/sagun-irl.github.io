@@ -11,7 +11,8 @@ Current github pages sitemap:
 
 siteurl: {{ site.github.url }}
 
-{% liquid
+{%
+#liquid
 #for repo in site.github.public_repositories
 #	if repo.homepage contains site.github.url
 #	and repo.homepage != site.github.url
