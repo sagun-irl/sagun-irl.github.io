@@ -20,13 +20,18 @@ Current github pages sitemap:
 	position: fixed;
 	top: 0;
 	right: 0;
-	padding: 0.25em 0.5em;
+	padding: 0.5em 1.5em 0 1.5em;
 	border-bottom-left-radius: 5px;
 	backdrop-filter: invert(0.25);">
-Site source: [suggonm.github.io](https://github.com/SuggonM/suggonm.github.io)
+Site source: [suggonm.github.io](https://github.com/SuggonM/suggonm.github.io)\
+Last updated: 
 </div>
 
 {{ site.url }}
+
+{{ site.github.repository_url }}
+
+{{ site.github.url }}
 
 {{ page.name }}
 
