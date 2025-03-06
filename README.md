@@ -23,7 +23,5 @@ Current github pages sitemap:
 	padding: 0.25em 0.5em;
 	border-bottom-left-radius: 5px;
 	backdrop-filter: invert(0.25);">
-
 Site source: [suggonm.github.io](https://github.com/SuggonM/suggonm.github.io)
-
 </div>
