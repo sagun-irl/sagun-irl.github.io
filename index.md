@@ -11,6 +11,9 @@ Current github pages sitemap:
     <!-- script output -->
 </ul>
 
+{% for repository in site.github.public_repositories %}
+  * [./{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
 
 <small markdown="1">
 [List generated via [github list repository API](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-the-authenticated-user)]
@@ -23,7 +26,7 @@ Current github pages sitemap:
 	padding: 0.5em 1.5em 0 1.5em;
 	border-bottom-left-radius: 5px;
 	backdrop-filter: invert(0.25);">
-Site source: [{{ site.github.repository_name }}]({{ site.github.repository_url }}/blob/main/{{ page.name }})  
+Site source: [{{ site.github.repository_name }}]({{ site.github.repository_url }})  
 Last updated: 
 </div>
 
