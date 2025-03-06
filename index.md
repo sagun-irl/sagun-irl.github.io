@@ -26,8 +26,8 @@ Current github pages sitemap:
 <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
 
 Site source: [{{ site.github.repository_name }}]({{ site.github.repository_url }})\
-<!-- Last updated: {{  | date_to_string }} -->
 Last updated: {{ "now" }}
+<!-- Last updated: {{  | date_to_string }} -->
 
 </div>
 
