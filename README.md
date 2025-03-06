@@ -1,4 +1,4 @@
-<script>{% include default.js %}</script>
+<script>{% include_relative ./script.js %}</script>
 
 # Home Page
 Hi, this seems to be my home page for now 🙂
@@ -11,12 +11,9 @@ Current github pages sitemap:
     <!-- placeholder for /_includes/script.js -->
 </ul>
 
-<small>
-<div markdown="1">
 
+<small markdown="1">
 [List generated via [github list repository API](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-the-authenticated-user)]
-
-</div>
 </small>
 
 <div markdown="1" style="
