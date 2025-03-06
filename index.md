@@ -1,8 +1,10 @@
 ---
 title: abc
 ---
-{% assign title = site.github.owner_name %}
-{{ page.title }}
+site title 
+
+{{ site.title }}
+
 # Home Page
 Hi, this seems to be my home page for now 🙂
 
