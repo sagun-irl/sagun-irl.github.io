@@ -12,7 +12,7 @@ Current github pages sitemap:
 </ul>
 
 {% for repository in site.github.public_repositories %}
-  * [./{{ repository.name }}]({{ repository.html_url }})
+  * [./{{ repository.name }}](./{{ repository.name }})
 {% endfor %}
 
 <small markdown="1">
