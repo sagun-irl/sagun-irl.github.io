@@ -23,16 +23,10 @@ Current github pages sitemap:
 	padding: 0.5em 1.5em 0 1.5em;
 	border-bottom-left-radius: 5px;
 	backdrop-filter: invert(0.25);">
-Site source: [{{ site.github.repository_name }}]({{ site.github.repository_url }}/blob/main/)\
+Site source: [{{ site.github.repository_name }}]({{ site.github.repository_url }}/blob/main/{{ page.name }})  
 Last updated: 
 </div>
 
-{{ page.name }}
-
 ## Github metadata
 
-{{ site.github.owner_url }}
-
-{{ site.github.public_repositories }}
-
-{{ site.github.source }}
+{{ site.github.public_repositories. }}
