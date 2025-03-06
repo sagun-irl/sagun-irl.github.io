@@ -25,3 +25,5 @@ Current github pages sitemap:
 	backdrop-filter: invert(0.25);">
 Site source: [suggonm.github.io](https://github.com/SuggonM/suggonm.github.io)
 </div>
+
+{{ site.pages }}
