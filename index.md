@@ -1,3 +1,6 @@
+---
+title: SuggonM
+---
 <script>
 
 {% include_relative script.js %}
