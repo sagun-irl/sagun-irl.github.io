@@ -1,12 +1,6 @@
 ---
-# title: abc
+title: Home Page
 ---
-site title: {{ site.title }}
-
-page title: {{ page.title }}
-
-seo tag title: {{ seo_tag.title }}
-
 # Home Page
 Hi, this seems to be my home page for now 🙂
 
