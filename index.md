@@ -1,3 +1,7 @@
+{% if "abc def" contains "c " %}
+abcdef
+{% endif %}
+
 # Home Page
 Hi, this seems to be my home page for now 🙂
 
