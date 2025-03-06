@@ -5,10 +5,6 @@ I'm a long-time player of [Guardian Tales](https://guardian-tales.fandom.com/wik
 
 Current github pages sitemap:
 
-<ul class="gh-pages-list">
-    <!-- script output -->
-</ul>
-
 {% assign root_url = site.github.url | append: "/" %}
 {% for repo in site.github.public_repositories %}
 	{% if repo.homepage contains root_url
@@ -18,19 +14,9 @@ Current github pages sitemap:
 	{% endif %}
 {% endfor %}
 
-<small>
-
-[List generated via [github list repository API](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-the-authenticated-user)]
-
-</small>
-
 <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
 
 Site source: [{{ site.github.repository_name }}]({{ site.github.repository_url }})\
 Last updated: {{ "now" | date: "%b %e, %Y" }}
 
 </div>
-
-## Github metadata
-
-<!-- {{ site.github.public_repositories | where: "homepage", "" }} -->
