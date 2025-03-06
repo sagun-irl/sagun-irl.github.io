@@ -31,3 +31,5 @@ Site source: [suggonm.github.io](https://github.com/SuggonM/suggonm.github.io)
 {{ page.name }}
 
 {{ site.github.owner_url }}
+
+{{ site.github.public_repositories }}
