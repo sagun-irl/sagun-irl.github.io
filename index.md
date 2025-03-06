@@ -1,7 +1,6 @@
-{{ site.title }}
-
-{{ page.title }}
-
+---
+title: {{ site.github.owner_name }}
+---
 # Home Page
 Hi, this seems to be my home page for now 🙂
 
