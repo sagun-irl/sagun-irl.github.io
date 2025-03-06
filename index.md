@@ -28,10 +28,6 @@ Site source: [suggonm.github.io](https://github.com/SuggonM/suggonm.github.io)
 
 {{ site.url }}
 
-date?
-{{ page.date | date: "%-d %B %Y" }}
-date.
-
 {{ page.name }}
 
-{{ site.github.pages_hostname }}
+{{ site.github.owner_url }}
