@@ -28,6 +28,10 @@ Site source: [suggonm.github.io](https://github.com/SuggonM/suggonm.github.io)
 
 {{ site.url }}
 
+date?
 {{ page.date }}
+date.
 
 {{ page.name }}
+
+{{ page.path }}
