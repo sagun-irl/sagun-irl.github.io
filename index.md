@@ -1,6 +1,3 @@
----
-# title: Home Page
----
 # Home Page
 Hi, this seems to be my home page for now 🙂
 
