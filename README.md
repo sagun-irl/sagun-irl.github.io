@@ -1,3 +1,5 @@
+{% include default.js %}
+
 # Home Page
 Hi, this seems to be my home page for now 🙂
 
@@ -9,11 +11,13 @@ Current github pages sitemap:
     <!-- placeholder for /_includes/script.js -->
 </ul>
 
-<small markdown="1">
+<div markdown="1">
+<small>
 
 [List generated via [github list repository API](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-the-authenticated-user)]
 
 </small>
+</div>
 
 <div markdown="1" style="
 	position: fixed;
