@@ -27,9 +27,10 @@ Current github pages sitemap:
 	border-bottom-left-radius: 5px;
 	backdrop-filter: invert(0.25);">
 Site source: [{{ site.github.repository_name }}]({{ site.github.repository_url }})  
-Last updated: 
+<!-- Last updated: {{  | date_to_string }} -->
+Last updated: {{ "now" }}
 </div>
 
 ## Github metadata
 
-{{ site.github.public_repositories. }}
+<!-- {{ site.github.public_repositories | where: "homepage",  }} -->
