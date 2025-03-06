@@ -1,3 +1,7 @@
+---
+name: true
+---
+
 <script>{% include_relative script.js %}</script>
 
 # Home Page
@@ -33,4 +37,4 @@ Last updated: {{ "now" }}
 
 ## Github metadata
 
-<!-- {{ site.github.public_repositories | where: "homepage",  }} -->
+<!-- {{ site.github.public_repositories | where: "homepage", "" }} -->
