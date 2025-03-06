@@ -13,7 +13,7 @@ I'm a long-time player of [Guardian Tales](https://guardian-tales.fandom.com/wik
 Current github pages sitemap:
 
 <ul class="gh-pages-list">
-    <!-- placeholder for /_includes/script.js -->
+    <!-- script output -->
 </ul>
 
 
