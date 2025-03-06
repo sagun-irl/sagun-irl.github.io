@@ -10,9 +10,7 @@ Current github pages sitemap:
 </ul>
 
 <small>
-
 [List generated via [github list repository API](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-the-authenticated-user)]
-
 </small>
 
 <div style="
@@ -24,3 +22,5 @@ Current github pages sitemap:
 	backdrop-filter: invert(0.25);">
 
 Site source: [suggonm.github.io](https://github.com/SuggonM/suggonm.github.io)
+
+</div>
