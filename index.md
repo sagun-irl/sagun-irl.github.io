@@ -26,4 +26,8 @@ Current github pages sitemap:
 Site source: [suggonm.github.io](https://github.com/SuggonM/suggonm.github.io)
 </div>
 
-{{ page.url }}
+{{ site.url }}
+
+{{ page.date }}
+
+{{ page.name }}
