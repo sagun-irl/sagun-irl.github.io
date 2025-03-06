@@ -1,7 +1,7 @@
 ---
-title: ""
+title: abc
 ---
-{% assign title = {{ site.github.owner_name }} %}
+{% assign title = site.github.owner_name %}
 {{ page.title }}
 # Home Page
 Hi, this seems to be my home page for now 🙂
