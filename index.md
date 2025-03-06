@@ -9,7 +9,7 @@ Current github pages sitemap:
     <!-- script output -->
 </ul>
 
-{% assign root_url: site.github.url | append: "/" %}
+{% assign root_url = site.github.url | append: "/" %}
 {% for repo in site.github.public_repositories %}
 	{% if repo.homepage contains root_url
 	and repo.homepage != root_url
