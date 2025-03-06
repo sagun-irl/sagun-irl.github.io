@@ -1,7 +1,3 @@
-{% if "abc def" contains "cd" %}
-abcdef
-{% endif %}
-
 # Home Page
 Hi, this seems to be my home page for now 🙂
 
@@ -13,9 +9,16 @@ Current github pages sitemap:
     <!-- script output -->
 </ul>
 
-{% for repository in site.github.public_repositories %}
-  * [./{{ repository.name }}](./{{ repository.name }})
-{% endfor %}
+siteurl: {{ site.github.url }}
+
+{% liquid
+#for repo in site.github.public_repositories
+#	if repo.homepage contains site.github.url
+#	and repo.homepage != site.github.url
+#* [./{{ repo.name }}](./{{ repo.name }})
+#	endif
+#endfor
+%}
 
 <small>
 
