@@ -19,9 +19,11 @@
 ### Tab Navigation
 
 <iframe height="320" style="width: 100%;" scrolling="no" title="Tab Navigation" src="https://codepen.io/Suggon/embed/MWzqByj?default-tab=result&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-	See the Pen <a href="https://codepen.io/Suggon/pen/MWzqByj">
-	Tab Navigation</a> by Suggon (<a href="https://codepen.io/Suggon">@Suggon</a>)
-	on <a href="https://codepen.io">CodePen</a>.
+
+See the Pen <a href="https://codepen.io/Suggon/pen/MWzqByj">
+Tab Navigation</a> by Suggon (<a href="https://codepen.io/Suggon">@Suggon</a>)
+on <a href="https://codepen.io">CodePen</a>.
+
 </iframe>
 
 ---
